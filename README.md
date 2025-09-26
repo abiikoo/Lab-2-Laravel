@@ -80,8 +80,9 @@ Laravel utiliza archivos de **migración** para definir la estructura de la base
 ## 4. **Resultado Visible**
 
 - A continuación, se muestra cómo se ve la pantalla de login tras implementar la autenticación en Laravel:
-  ```md
-  ![Login Screen](images/Laravel_Home.png)
+ <img width="1920" height="834" alt="Image" src="https://github.com/user-attachments/assets/e9101c67-fee7-4108-be9b-831611822ac6" />
+
+- Aquí tenemos el Dashboard una vez iniciamos sesión:
   
 
 ## Learning Laravel
