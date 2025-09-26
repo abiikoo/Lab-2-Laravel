@@ -85,41 +85,32 @@ Laravel utiliza archivos de **migración** para definir la estructura de la base
 - Aquí tenemos el Dashboard una vez iniciamos sesión:
   <img width="1919" height="786" alt="Image" src="https://github.com/user-attachments/assets/41a2948d-b977-4562-af21-fb33182322f8" />
 
-## Learning Laravel
+## Dificultades y Soluciones
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **Problema:** Problemas con la versión de PHP y la compatibilidad de Laravel.
+  - **Solución:** Se actualizó la versión de PHP a 8.2 en XAMPP, lo que permitió instalar y correr Laravel 12 sin errores de compatibilidad.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **Problema:** Confusión entre WAMP y XAMPP al momento de ejecutar PHP.
+  - **Solución:** Se ajustaron las variables de entorno de Windows para que la terminal reconociera el PHP de XAMPP y no el de WAMP.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Problema:** Error al cargar la base de datos en phpMyAdmin.
+  - **Solución:** Se inició correctamente el servicio de MySQL en XAMPP y se creó la base de datos lab2laravel con lo recomendado utf8mb4_general_ci.
+ 
+- **Problema:**  Pantalla inicial de Laravel aparecía sin estilos (CSS en blanco).
+  - **Solución:** Se instaló e inició el proceso de Vite con npm run dev, asegurando la correcta carga de los estilos y scripts en las vistas Blade.
 
-## Laravel Sponsors
+## Referencias
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+[1] [Documentación oficial de Laravel](https://laravel.com/docs) <br>
+[2] [Laravel Breeze Installation Guide](https://laravel.com/docs/8.x/breeze) <br>
+[3] [StackOverflow: Error de migración en Laravel](https://stackoverflow.com/questions/xxxxx)<br>
+[4] [Laracasts: Laravel Authentication](https://laracasts.com/series/laravel-8-from-scratch/episodes/10)<br>
+[5] [GitHub: Laravel UI](https://github.com/laravel/ui)
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+Este laboratorio ha sido desarrollado por la estudiante de la Universidad Tecnológica de Panamá:  
+**Nombre:** Abigail Koo  
+**Correo:** abigail.koo@utp.ac.pa  
+**Curso:** Ingeniería Web  
+**Instructor:** Ing. Irina Fong <br>
+**Fecha de Ejecución:** 26 de Septiembre de 2025
